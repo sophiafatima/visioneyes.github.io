@@ -4,12 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vision Eyes</title>
-    <link rel="stylesheet" href="site visioneyes Cadastro.css">
-    <script>
-        function redirectToSobre() {
-            window.location.href = "index - Sobre.html";
-        }
-    </script>
+    <link rel="stylesheet" href="site visioneyes pi.css">
 </head>
 <body>
     <header heigth="300px">
@@ -25,37 +20,23 @@
                 <li><a href="index - Sobre.html">Sobre</a></li>
                 <li><a href="index - Contato.html">Contato</a></li>
                 <li><a href="index - Cadastro.html">Login/Cadastro</a></li>
-               
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Cadastre-se</h2>
-            <form action="process_form.php" method="post" onsubmit="redirectToSobre(); return false;">
+      <article>
+          <div><h2>Quem Somos</h2></div>
+          <p>A VisionEyes é uma startup que visa a inclusão de pessoas com deficiencia visual ao mercado e trabalho!</p>
+          <p>Nosso trabalho é levar uma segurança aos nossos clientes sobre sua reabilitação no mercado de trabalho.</p>
+        <div> <h2>Como se cadastrar</h2>
+          <p>Para se cadastar é simples!</p>
+          <p> clique no botão abaixo para ir a página de cadastro </p>
+          <a href="index - Cadastro.html"><button>Cadastre-se agora</button></a></div>
+      </article>
+  </main>
 
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" name="nome" required><br><br>
-
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="deficiencia">Tipo de Deficiência Visual:</label><br>
-                <select id="deficiencia" name="deficiencia" required>
-                    <option value="cegueira">Cegueira</option>
-                    <option value="baixa_visao">Baixa Visão</option>
-                    <option value="outra">Outra</option>
-                </select><br><br>
-
-                <label for="acessibilidade">Recursos de Acessibilidade Necessários:</label><br>
-                <textarea id="acessibilidade" name="acessibilidade" rows="4" cols="50" required></textarea><br><br>
-
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Vision Eyes. Todos os direitos reservados.</p>
-    </footer>
+  <footer>
+      <p>&copy; 2024 Vision Eyes. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
